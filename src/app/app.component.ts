@@ -5,11 +5,17 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { QualificationComponent } from './qualification/qualification.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ServicesComponent } from './services/services.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavbarComponent,HomeComponent,AboutComponent,QualificationComponent,SkillsComponent],
+  imports: [
+    RouterOutlet,NavbarComponent,
+    HomeComponent,AboutComponent,
+    QualificationComponent,SkillsComponent,
+    ServicesComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

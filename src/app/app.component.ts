@@ -7,6 +7,7 @@ import { QualificationComponent } from './qualification/qualification.component'
 import { SkillsComponent } from './skills/skills.component';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     RouterOutlet,NavbarComponent,
     HomeComponent,AboutComponent,
     QualificationComponent,SkillsComponent,
-    ServicesComponent,PortfolioComponent
+    ServicesComponent,PortfolioComponent,
+    ContactComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

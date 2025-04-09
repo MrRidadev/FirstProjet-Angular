@@ -1,27 +1,41 @@
-# Portfolio
+# 🎨 MyPortfolio Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.17.
+Un portfolio web interactif développé avec **Angular 18**, conçu pour présenter mes compétences, projets et parcours professionnel.
 
-## Development server
+## 📌 Présentation du projet
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ce projet a été réalisé dans le cadre d’un exercice de mise en pratique des technologies Angular, TypeScript et du responsive design.  
+Il permet aux visiteurs de :
 
-## Code scaffolding
+- Découvrir mon profil (bio, parcours, compétences)
+- Parcourir mes projets avec filtres par technologie
+- Me contacter via un formulaire fonctionnel
+- Télécharger mon CV
+- Passer du mode clair au mode sombre
+- Naviguer en français ou en anglais
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Technologies utilisées
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Framework** : Angular 18
+- **Langages** : TypeScript, HTML, CSS
+- **UI Framework** : Bootstrap
+- **Déploiement** : GitHub Pages 
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Instructions de lancement
 
-## Running end-to-end tests
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/MrRidadev/FirstProjet-Angular.git
+   cd FirstProjet
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Installer les dépendances :
+   ```bash
+    npm install
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. Lancer l'application localement :
+   ```bash
+    ng serve
